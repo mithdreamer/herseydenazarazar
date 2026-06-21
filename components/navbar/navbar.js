@@ -13,6 +13,12 @@
         <a data-nav-key="3d-baski" data-href="pages/3d-baski.html" href="#">3D Baskı</a>
         <a data-nav-key="siber-guvenlik" data-href="pages/siber-guvenlik.html" href="#">Siber Güvenlik</a>
         <a data-nav-key="dijital-araclar" data-href="pages/dijital-araclar.html" href="#">Dijital Araçlar</a>
+        <a data-nav-key="ag-ve-internet" data-href="pages/ag-ve-internet.html" href="#">Ağ ve İnternet</a>
+        <a data-nav-key="donanim" data-href="pages/donanim.html" href="#">Donanım</a>
+        <a data-nav-key="isletim-sistemleri" data-href="pages/isletim-sistemleri.html" href="#">İşletim Sistemleri</a>
+        <a data-nav-key="bulut-ve-devops" data-href="pages/bulut-ve-devops.html" href="#">Bulut ve DevOps</a>
+        <a data-nav-key="mobil-gelistirme" data-href="pages/mobil-gelistirme.html" href="#">Mobil Geliştirme</a>
+        <a data-nav-key="veri-bilimi" data-href="pages/veri-bilimi.html" href="#">Veri Bilimi</a>
       </div>
     </nav>
   `;
