@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Teknoloji konularını kısa ve başlangıç seviyesinde anlatan bilgi bankası.">
+  <title>Her Şeyden Azar Azar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="components/navbar/navbar.css">
+  <link rel="stylesheet" href="components/footer/footer.css">
+</head>
+<body>
+  <div data-component="navbar" data-root="." data-current="home"></div>
+
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Başlangıç seviyesi teknoloji bilgi bankası</p>
+      <h1>Her Şeyden Azar Azar</h1>
+      <p>Web geliştirme, yazılım araçları, veritabanı ve yapay zeka kavramlarını kısa kartlarla keşfet.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="tech-grid" aria-label="Ana kategoriler">
+      <article class="tech-card">
+        <span class="card-icon" aria-hidden="true">WEB</span>
+        <h2>
+          <button class="category-title" type="button" data-topic-template="topics-web-gelistirme">Web Geliştirme</button>
+        </h2>
+        <p>HTML, CSS, JavaScript ve modern web sayfalarının temel kavramları hakkında kısa bilgiler.</p>
+        <a href="pages/web-gelistirme.html">İncele</a>
+      </article>
+
+      <article class="tech-card">
+        <span class="card-icon" aria-hidden="true">GIT</span>
+        <h2>
+          <button class="category-title" type="button" data-topic-template="topics-yazilim-araclari">Yazılım Araçları</button>
+        </h2>
+        <p>Git, GitHub, VS Code ve yazılım geliştirme sürecinde kullanılan temel araçlar.</p>
+        <a href="pages/yazilim-araclari.html">İncele</a>
+      </article>
+
+      <article class="tech-card">
+        <span class="card-icon" aria-hidden="true">SQL</span>
+        <h2>
+          <button class="category-title" type="button" data-topic-template="topics-veritabani">Veritabanı</button>
+        </h2>
+        <p>SQL, tablolar ve veritabanı ilişkileri hakkında başlangıç seviyesinde bilgiler.</p>
+        <a href="pages/veritabani.html">İncele</a>
+      </article>
+
+      <article class="tech-card">
+        <span class="card-icon" aria-hidden="true">AI</span>
+        <h2>
+          <button class="category-title" type="button" data-topic-template="topics-yapay-zeka">Yapay Zeka</button>
+        </h2>
+        <p>Yapay zeka, LLM ve prompt kavramları hakkında kısa ve sade bilgiler.</p>
+        <a href="pages/yapay-zeka.html">İncele</a>
+      </article>
+
+      <article class="tech-card">
+        <span class="card-icon" aria-hidden="true">KOD</span>
+        <h2>
+          <button class="category-title" type="button" data-topic-template="topics-yazilim">Yazılım</button>
+        </h2>
+        <p>Programlama, algoritma, değişkenler ve temel yazılım mantığı hakkında kısa bilgiler.</p>
+        <a href="pages/yazilim.html">İncele</a>
+      </article>
+
+      <article class="tech-card">
+        <span class="card-icon" aria-hidden="true">ARD</span>
+        <h2>
+          <button class="category-title" type="button" data-topic-template="topics-arduino">Arduino</button>
+        </h2>
+        <p>Elektronik projeler, sensörler, devre elemanları ve Arduino kartları hakkında kısa bilgiler.</p>
+        <a href="pages/arduino.html">İncele</a>
+      </article>
+
+      <article class="tech-card">
+        <span class="card-icon" aria-hidden="true">3D</span>
+        <h2>
+          <button class="category-title" type="button" data-topic-template="topics-3d-baski">3D Baskı</button>
+        </h2>
+        <p>3D yazıcılar, filamentler, modeller ve baskı süreci hakkında başlangıç bilgileri.</p>
+        <a href="pages/3d-baski.html">İncele</a>
+      </article>
+
+      <article class="tech-card">
+        <span class="card-icon" aria-hidden="true">SEC</span>
+        <h2>
+          <button class="category-title" type="button" data-topic-template="topics-siber-guvenlik">Siber Güvenlik</button>
+        </h2>
+        <p>Parola güvenliği, oltalama, kötü amaçlı yazılım ve temel korunma yöntemleri.</p>
+        <a href="pages/siber-guvenlik.html">İncele</a>
+      </article>
+
+      <article class="tech-card">
+        <span class="card-icon" aria-hidden="true">TOOL</span>
+        <h2>
+          <button class="category-title" type="button" data-topic-template="topics-dijital-araclar">Dijital Araçlar</button>
+        </h2>
+        <p>Not alma, dosya paylaşımı, bulut servisleri ve üretkenlik araçları hakkında kısa bilgiler.</p>
+        <a href="pages/dijital-araclar.html">İncele</a>
+      </article>
+    </section>
+  </main>
+
+  <dialog class="topic-modal" id="topic-modal" aria-labelledby="topic-modal-title">
+    <div class="topic-modal__panel">
+      <button class="topic-modal__close" type="button" aria-label="Modalı kapat" data-modal-close>&times;</button>
+      <h2 id="topic-modal-title"></h2>
+      <div class="topic-modal__content" id="topic-modal-content"></div>
+    </div>
+  </dialog>
+
+  <template id="topics-web-gelistirme">
+    <ul>
+      <li>HTML Nedir?</li>
+      <li>CSS Nedir?</li>
+      <li>JavaScript Nedir?</li>
+      <li>DOM Nedir?</li>
+      <li>Event Listener Nedir?</li>
+      <li>API Nedir?</li>
+      <li>JSON Nedir?</li>
+      <li>Modal Nedir?</li>
+      <li>SEO Nedir?</li>
+      <li>Responsive Tasarım Nedir?</li>
+    </ul>
+  </template>
+
+  <template id="topics-yazilim-araclari">
+    <ul>
+      <li>Git Nedir?</li>
+      <li>GitHub Nedir?</li>
+      <li>Branch Nedir?</li>
+      <li>Commit Nedir?</li>
+      <li>VS Code Nedir?</li>
+    </ul>
+  </template>
+
+  <template id="topics-veritabani">
+    <ul>
+      <li>SQL Nedir?</li>
+      <li>Tablo Nedir?</li>
+      <li>Primary Key Nedir?</li>
+      <li>Foreign Key Nedir?</li>
+    </ul>
+  </template>
+
+  <template id="topics-yapay-zeka">
+    <ul>
+      <li>Yapay Zeka Nedir?</li>
+      <li>LLM Nedir?</li>
+      <li>Prompt Nedir?</li>
+    </ul>
+  </template>
+
+  <template id="topics-yazilim">
+    <ul>
+      <li>Programlama Nedir?</li>
+      <li>Algoritma Nedir?</li>
+      <li>Değişken Nedir?</li>
+      <li>Fonksiyon Nedir?</li>
+      <li>Hata Ayıklama Nedir?</li>
+      <li>Kütüphane Nedir?</li>
+    </ul>
+  </template>
+
+  <template id="topics-arduino">
+    <ul>
+      <li>Arduino Nedir?</li>
+      <li>Sensör Nedir?</li>
+      <li>LED Nedir?</li>
+      <li>Breadboard Nedir?</li>
+      <li>Direnç Nedir?</li>
+      <li>PWM Nedir?</li>
+    </ul>
+  </template>
+
+  <template id="topics-3d-baski">
+    <ul>
+      <li>3D Yazıcı Nedir?</li>
+      <li>Filament Nedir?</li>
+      <li>STL Dosyası Nedir?</li>
+      <li>Slicer Nedir?</li>
+      <li>Katman Yüksekliği Nedir?</li>
+      <li>Destek Yapısı Nedir?</li>
+    </ul>
+  </template>
+
+  <template id="topics-siber-guvenlik">
+    <ul>
+      <li>Siber Güvenlik Nedir?</li>
+      <li>Güçlü Parola Nedir?</li>
+      <li>İki Aşamalı Doğrulama Nedir?</li>
+      <li>Phishing Nedir?</li>
+      <li>Kötü Amaçlı Yazılım Nedir?</li>
+      <li>Güncelleme Neden Önemlidir?</li>
+    </ul>
+  </template>
+
+  <template id="topics-dijital-araclar">
+    <ul>
+      <li>Bulut Depolama Nedir?</li>
+      <li>Not Alma Uygulaması Nedir?</li>
+      <li>Parola Yöneticisi Nedir?</li>
+      <li>Ekran Görüntüsü Aracı Nedir?</li>
+      <li>Proje Yönetim Aracı Nedir?</li>
+      <li>Dosya Paylaşımı Nedir?</li>
+    </ul>
+  </template>
+
+  <div data-component="footer" data-root="."></div>
+
+  <script src="components/navbar/navbar.js"></script>
+  <script src="components/footer/footer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
