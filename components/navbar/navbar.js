@@ -9,6 +9,7 @@
           <summary class="navbar__summary">Yazılım ve Web</summary>
           <div class="navbar__dropdown">
             <a data-nav-key="web-gelistirme" data-href="pages/web-gelistirme.html" href="#">Web Geliştirme</a>
+            <a data-nav-key="devtools-terimleri" data-href="pages/devtools-terimleri.html" href="#">DevTools Terimleri</a>
             <a data-nav-key="yazilim" data-href="pages/yazilim.html" href="#">Yazılım</a>
             <a data-nav-key="mobil-gelistirme" data-href="pages/mobil-gelistirme.html" href="#">Mobil Geliştirme</a>
             <a data-nav-key="veritabani" data-href="pages/veritabani.html" href="#">Veritabanı</a>

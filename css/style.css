@@ -83,6 +83,72 @@ a {
   letter-spacing: 0;
 }
 
+.search-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 380px);
+  align-items: end;
+  gap: 20px;
+  margin-bottom: 36px;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.search-panel h2,
+.search-panel p {
+  margin: 0;
+}
+
+.search-panel h2 {
+  font-size: 1.35rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.search-panel p {
+  margin-top: 6px;
+  color: var(--muted);
+}
+
+.search-panel__field {
+  display: grid;
+  gap: 8px;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.search-panel__field input {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--ink);
+  font: inherit;
+}
+
+.search-panel__field input:focus {
+  outline: 3px solid rgba(15, 118, 110, 0.24);
+  border-color: var(--accent);
+}
+
+.search-empty {
+  margin: 0 0 28px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
 .category-section {
   margin-bottom: 44px;
 }
@@ -193,19 +259,50 @@ a {
   color: var(--muted);
 }
 
+.tech-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+.topic-button,
 .tech-card a {
   width: fit-content;
   min-height: 42px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-top: auto;
   padding: 10px 16px;
+  border: 1px solid transparent;
   border-radius: 8px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.topic-button {
+  background: var(--surface-soft);
+  color: var(--accent-dark);
+  border-color: rgba(15, 118, 110, 0.22);
+}
+
+.topic-button:hover,
+.topic-button:focus-visible {
+  background: #dcefeb;
+}
+
+.topic-button:focus-visible,
+.tech-card a:focus-visible {
+  outline: 3px solid rgba(15, 118, 110, 0.3);
+  outline-offset: 3px;
+}
+
+.tech-card a {
   background: var(--accent);
   color: #ffffff;
   text-decoration: none;
-  font-weight: 700;
 }
 
 .tech-card a:hover {
@@ -232,6 +329,10 @@ a {
   border-radius: 8px;
   background: var(--surface);
   box-shadow: 0 24px 70px rgba(23, 32, 51, 0.22);
+}
+
+.topic-modal[open] .topic-modal__panel {
+  animation: modal-in 160ms ease-out;
 }
 
 .topic-modal__panel h2 {
@@ -268,6 +369,18 @@ a {
   background: #dcefeb;
 }
 
+@keyframes modal-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 @media (max-width: 640px) {
   .hero {
     min-height: 280px;
@@ -276,6 +389,11 @@ a {
 
   .container {
     padding: 28px 16px;
+  }
+
+  .search-panel {
+    grid-template-columns: 1fr;
+    padding: 18px;
   }
 
   .tech-grid,
