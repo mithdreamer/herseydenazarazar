@@ -2,20 +2,60 @@
   <a class="navbar__home" data-nav-key="home" data-href="index.html" href="#">Ana Sayfa</a>
   <div class="navbar__sections" aria-label="Site bölümleri">
     <span class="navbar__label">Site Bölümleri</span>
-    <a data-nav-key="web-gelistirme" data-href="pages/web-gelistirme.html" href="#">Web Geliştirme</a>
-    <a data-nav-key="yazilim-araclari" data-href="pages/yazilim-araclari.html" href="#">Yazılım Araçları</a>
-    <a data-nav-key="veritabani" data-href="pages/veritabani.html" href="#">Veritabanı</a>
-    <a data-nav-key="yapay-zeka" data-href="pages/yapay-zeka.html" href="#">Yapay Zeka</a>
-    <a data-nav-key="yazilim" data-href="pages/yazilim.html" href="#">Yazılım</a>
-    <a data-nav-key="arduino" data-href="pages/arduino.html" href="#">Arduino</a>
-    <a data-nav-key="3d-baski" data-href="pages/3d-baski.html" href="#">3D Baskı</a>
-    <a data-nav-key="siber-guvenlik" data-href="pages/siber-guvenlik.html" href="#">Siber Güvenlik</a>
-    <a data-nav-key="dijital-araclar" data-href="pages/dijital-araclar.html" href="#">Dijital Araçlar</a>
-    <a data-nav-key="ag-ve-internet" data-href="pages/ag-ve-internet.html" href="#">Ağ ve İnternet</a>
-    <a data-nav-key="donanim" data-href="pages/donanim.html" href="#">Donanım</a>
-    <a data-nav-key="isletim-sistemleri" data-href="pages/isletim-sistemleri.html" href="#">İşletim Sistemleri</a>
-    <a data-nav-key="bulut-ve-devops" data-href="pages/bulut-ve-devops.html" href="#">Bulut ve DevOps</a>
-    <a data-nav-key="mobil-gelistirme" data-href="pages/mobil-gelistirme.html" href="#">Mobil Geliştirme</a>
-    <a data-nav-key="veri-bilimi" data-href="pages/veri-bilimi.html" href="#">Veri Bilimi</a>
+
+    <details class="navbar__group">
+      <summary class="navbar__summary">Yazılım ve Web</summary>
+      <div class="navbar__dropdown">
+        <a data-nav-key="web-gelistirme" data-href="pages/web-gelistirme.html" href="#">Web Geliştirme</a>
+        <a data-nav-key="yazilim" data-href="pages/yazilim.html" href="#">Yazılım</a>
+        <a data-nav-key="mobil-gelistirme" data-href="pages/mobil-gelistirme.html" href="#">Mobil Geliştirme</a>
+        <a data-nav-key="veritabani" data-href="pages/veritabani.html" href="#">Veritabanı</a>
+      </div>
+    </details>
+
+    <details class="navbar__group">
+      <summary class="navbar__summary">Sözlük</summary>
+      <div class="navbar__dropdown">
+        <a data-nav-key="html-terimleri" data-href="pages/html-terimleri.html" href="#">HTML Terimleri</a>
+        <a data-nav-key="css-terimleri" data-href="pages/css-terimleri.html" href="#">CSS Terimleri</a>
+        <a data-nav-key="javascript-terimleri" data-href="pages/javascript-terimleri.html" href="#">JavaScript Terimleri</a>
+        <a data-nav-key="python-terimleri" data-href="pages/python-terimleri.html" href="#">Python Terimleri</a>
+      </div>
+    </details>
+
+    <details class="navbar__group">
+      <summary class="navbar__summary">Veri ve AI</summary>
+      <div class="navbar__dropdown">
+        <a data-nav-key="yapay-zeka" data-href="pages/yapay-zeka.html" href="#">Yapay Zeka</a>
+        <a data-nav-key="veri-bilimi" data-href="pages/veri-bilimi.html" href="#">Veri Bilimi</a>
+      </div>
+    </details>
+
+    <details class="navbar__group">
+      <summary class="navbar__summary">Sistemler</summary>
+      <div class="navbar__dropdown">
+        <a data-nav-key="ag-ve-internet" data-href="pages/ag-ve-internet.html" href="#">Ağ ve İnternet</a>
+        <a data-nav-key="isletim-sistemleri" data-href="pages/isletim-sistemleri.html" href="#">İşletim Sistemleri</a>
+        <a data-nav-key="bulut-ve-devops" data-href="pages/bulut-ve-devops.html" href="#">Bulut ve DevOps</a>
+        <a data-nav-key="siber-guvenlik" data-href="pages/siber-guvenlik.html" href="#">Siber Güvenlik</a>
+      </div>
+    </details>
+
+    <details class="navbar__group">
+      <summary class="navbar__summary">Donanım</summary>
+      <div class="navbar__dropdown">
+        <a data-nav-key="donanim" data-href="pages/donanim.html" href="#">Donanım</a>
+        <a data-nav-key="arduino" data-href="pages/arduino.html" href="#">Arduino</a>
+        <a data-nav-key="3d-baski" data-href="pages/3d-baski.html" href="#">3D Baskı</a>
+      </div>
+    </details>
+
+    <details class="navbar__group">
+      <summary class="navbar__summary">Araçlar</summary>
+      <div class="navbar__dropdown">
+        <a data-nav-key="yazilim-araclari" data-href="pages/yazilim-araclari.html" href="#">Yazılım Araçları</a>
+        <a data-nav-key="dijital-araclar" data-href="pages/dijital-araclar.html" href="#">Dijital Araçlar</a>
+      </div>
+    </details>
   </div>
 </nav>

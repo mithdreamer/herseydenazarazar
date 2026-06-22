@@ -83,6 +83,21 @@ a {
   letter-spacing: 0;
 }
 
+.category-section {
+  margin-bottom: 44px;
+}
+
+.category-section:last-child {
+  margin-bottom: 0;
+}
+
+.category-section h2 {
+  margin: 0 0 18px;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
 .tech-grid,
 .info-grid {
   display: grid;
@@ -120,6 +135,7 @@ a {
 }
 
 .tech-card h2,
+.tech-card h3,
 .info-card h2 {
   margin: 0 0 10px;
   font-size: 1.35rem;

@@ -25,6 +25,72 @@
   letter-spacing: 0.06em;
 }
 
+.navbar__group {
+  position: relative;
+}
+
+.navbar__summary {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 700;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.navbar__summary::-webkit-details-marker {
+  display: none;
+}
+
+.navbar__summary::after {
+  content: "";
+  width: 0.45em;
+  height: 0.45em;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  opacity: 0.75;
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform 160ms ease;
+}
+
+.navbar__group[open] .navbar__summary::after {
+  transform: translateY(1px) rotate(225deg);
+}
+
+.navbar__summary:hover,
+.navbar__summary:focus-visible,
+.navbar__group[open] .navbar__summary,
+.navbar__group[data-current="true"] .navbar__summary {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.navbar__summary:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.24);
+  outline-offset: 3px;
+}
+
+.navbar__dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 20;
+  width: max-content;
+  min-width: 220px;
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  background: #172033;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+}
+
 .navbar a {
   min-height: 40px;
   display: inline-flex;
@@ -35,6 +101,12 @@
   color: #ffffff;
   text-decoration: none;
   font-weight: 700;
+}
+
+.navbar__dropdown a {
+  width: 100%;
+  justify-content: flex-start;
+  white-space: nowrap;
 }
 
 .navbar a:hover,
@@ -55,6 +127,24 @@
     width: 100%;
   }
 
+  .navbar__group {
+    width: 100%;
+  }
+
+  .navbar__summary {
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .navbar__dropdown {
+    position: static;
+    width: 100%;
+    min-width: 0;
+    margin-top: 8px;
+    box-shadow: none;
+  }
+
   .navbar__label {
     width: 100%;
   }
@@ -63,5 +153,10 @@
     flex: 1 1 calc(50% - 10px);
     justify-content: center;
     text-align: center;
+  }
+
+  .navbar__dropdown a {
+    justify-content: flex-start;
+    text-align: left;
   }
 }
