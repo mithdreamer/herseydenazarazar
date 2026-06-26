@@ -793,7 +793,20 @@
                                          {
                                              "title":  "Destek Yapısı Nedir?",
                                              "definition":  "Destek yapısı, havada kalan veya eğimli parçaların baskı sırasında çökmesini engellemek için geçici olarak basılan yardımcı bölümdür."
+                                         },
+                                         {
+                                             "title":  "CAD (Computer-Aided Design) Nedir?",
+                                             "definition":  "CAD, bilgisayar destekli tasarım sistemleridir. 3D modeller oluşturmak ve düzenlemek için kullanılır."
+                                         },
+                                         {
+                                             "title":  "Fusion 360 Nedir?",
+                                             "definition":  "Fusion 360, Autodesk tarafından geliştirilen bulut tabanlı bir CAD yazılımıdır. 3D modeller oluşturmak ve düzenlemek için kullanılır."
+                                         },
+                                         {
+                                             "title":  "Sketch - extrude - fillet Nedir?",
+                                             "definition":  "Sketch, extrude ve fillet, 3D modelleme süreçlerinde kullanılan temel işlemlerdir. Sketch, 3D modelin temelini oluşturan iki boyutlu çizim aşamasıdır. Extrude, 2D çizimleri 3D forma dönüştürmek için kullanılır. Fillet, 3D nesnelerin köşelerini yuvarlatmak için kullanılır."
                                          }
+
                                      ]
                        },
                        {
