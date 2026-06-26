@@ -804,7 +804,15 @@
                                          },
                                          {
                                              "title":  "Sketch - extrude - fillet Nedir?",
-                                             "definition":  "Sketch, extrude ve fillet, 3D modelleme süreçlerinde kullanılan temel işlemlerdir. Sketch, 3D modelin temelini oluşturan iki boyutlu çizim aşamasıdır. Extrude, 2D çizimleri 3D forma dönüştürmek için kullanılır. Fillet, 3D nesnelerin köşelerini yuvarlatmak için kullanılır."
+                                             "definition":  "Sketch, extrude ve fillet, 3D modelleme süreçlerinde kullanılan temel işlemlerdir. Sketch, 3D modelin temelini oluşturan iki boyutlu çizim aşamasıdır.Sketch üzerindeki çizgilerin, dairelerin veya açıların kesin ölçülerini belirlemek için kullanılan araçtır Extrude, 2D çizimleri 3D forma dönüştürmek için kullanılır.Kapalı bir 2D çizimi belirli bir mesafe boyunca uzatarak 3D katı modele dönüştüren işlemdir.Modele yükseklik, kalınlık veya derinlik kazandırır. Fillet(yuvarlatma), 3D nesnelerin köşelerini yuvarlatmak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "Dimension (Ölçülendirme)",
+                                             "definition":  "Dimension, 3D modellerdeki ölçüleri belirten ve tasarımın doğru şekilde oluşturulmasını sağlayan unsurlardır."
+                                         },
+                                         {
+                                             "title":  "Parametrik Tasarım Nedir?",
+                                             "definition":  "Modelin ölçülerini sonradan değiştirebilmeye olanak sağlayan tasarım yaklaşımıdır. Model, belirlenen ölçülere bağlı olarak otomatik güncellenir."
                                          }
 
                                      ]
