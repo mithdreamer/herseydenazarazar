@@ -83,6 +83,13 @@ a {
   letter-spacing: 0;
 }
 
+#categoryDescription {
+  max-width: 760px;
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
 .search-panel {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(260px, 380px);
@@ -257,6 +264,40 @@ a {
 .info-card p {
   margin: 0;
   color: var(--muted);
+}
+
+.info-card p + p,
+.info-card pre,
+.related-terms {
+  margin-top: 16px;
+}
+
+.info-card pre {
+  padding: 12px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
+.info-card code {
+  font-family: Consolas, Monaco, monospace;
+}
+
+.related-terms h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.related-terms ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.related-terms li {
+  margin-bottom: 4px;
 }
 
 .tech-card__actions {

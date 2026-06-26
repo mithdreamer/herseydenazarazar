@@ -1,0 +1,864 @@
+{
+    "categories":  [
+                       {
+                           "id":  "web-gelistirme",
+                           "title":  "Web Geliştirme",
+                           "description":  "HTML, CSS, JavaScript ve modern web sayfalarının temel kavramları hakkında kısa bilgiler.",
+                           "icon":  "WEB",
+                           "group":  "Yazılım ve Web",
+                           "legacyUrl":  "pages/web-gelistirme.html",
+                           "terms":  [
+                                         {
+                                             "title":  "HTML Nedir?",
+                                             "definition":  "HTML, web sayfalarının iskeletini oluşturan işaretleme dilidir. Başlık, paragraf, bağlantı, görsel ve liste gibi içerikler HTML ile oluşturulur."
+                                         },
+                                         {
+                                             "title":  "CSS Nedir?",
+                                             "definition":  "CSS, web sayfalarının görünümünü düzenleyen stil dilidir. Renkler, yazı tipleri, boşluklar, hizalama ve responsive tasarım CSS ile yapılır."
+                                         },
+                                         {
+                                             "title":  "JavaScript Nedir?",
+                                             "definition":  "JavaScript, web sayfalarına hareket ve etkileşim kazandıran programlama dilidir. Buton tıklamaları, formlar, animasyonlar ve dinamik içerikler JavaScript ile kontrol edilebilir."
+                                         },
+                                         {
+                                             "title":  "DOM Nedir?",
+                                             "definition":  "DOM, HTML sayfasının tarayıcı tarafından nesne yapısına dönüştürülmüş halidir. JavaScript, DOM sayesinde sayfadaki başlık, buton veya kart gibi elemanlara erişip onları değiştirebilir."
+                                         },
+                                         {
+                                             "title":  "Event Listener Nedir?",
+                                             "definition":  "Event listener, kullanıcının yaptığı bir işlemi dinleyen JavaScript yapısıdır. Örneğin bir butona tıklanınca belirli bir kodun çalışmasını sağlar."
+                                         },
+                                         {
+                                             "title":  "API Nedir?",
+                                             "definition":  "API, farklı yazılımların birbiriyle konuşmasını sağlayan arayüzdür. Örneğin bir web sitesi hava durumu bilgisini başka bir servisten API ile alabilir."
+                                         },
+                                         {
+                                             "title":  "JSON Nedir?",
+                                             "definition":  "JSON, verileri düzenli ve okunabilir şekilde taşımak için kullanılan hafif bir veri formatıdır. API cevaplarında sıkça kullanılır."
+                                         },
+                                         {
+                                             "title":  "Modal Nedir?",
+                                             "definition":  "Modal, mevcut sayfanın üzerine açılan küçük pencere yapısıdır. Giriş formu, kayıt ekranı, uyarı mesajı veya silme onayı gibi işlemlerde kullanılabilir."
+                                         },
+                                         {
+                                             "title":  "SEO Nedir?",
+                                             "definition":  "SEO, web sitelerinin Google gibi arama motorlarında daha görünür hale gelmesi için yapılan teknik ve içerik çalışmalarının genel adıdır."
+                                         },
+                                         {
+                                             "title":  "Responsive Tasarım Nedir?",
+                                             "definition":  "Responsive tasarım, web sitesinin bilgisayar, tablet ve telefon gibi farklı ekran boyutlarına uyumlu görünmesini sağlayan tasarım yaklaşımıdır."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "devtools-terimleri",
+                           "title":  "DevTools Terimleri",
+                           "description":  "Tarayıcı geliştirici araçlarında kullanılan inceleme, hata ayıklama ve performans panelleri.",
+                           "icon":  "DEV",
+                           "group":  "Yazılım ve Web",
+                           "legacyUrl":  "pages/devtools-terimleri.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Elements",
+                                             "definition":  "Tarayıcı DevTools içinde HTML yapısını incelemek ve geçici olarak düzenlemek için kullanılan paneldir."
+                                         },
+                                         {
+                                             "title":  "Styles",
+                                             "definition":  "Seçili elemente uygulanan CSS kurallarını görüntülemeyi ve geçici olarak değiştirmeyi sağlar."
+                                         },
+                                         {
+                                             "title":  "Computed",
+                                             "definition":  "Seçili elementin tarayıcı tarafından hesaplanmış son CSS değerlerini gösteren bölümdür."
+                                         },
+                                         {
+                                             "title":  "Console",
+                                             "definition":  "JavaScript kodu çalıştırmak, hata mesajlarını görmek ve log çıktılarını incelemek için kullanılan paneldir."
+                                         },
+                                         {
+                                             "title":  "Network",
+                                             "definition":  "Sayfanın yaptığı istekleri, yüklenen dosyaları, durum kodlarını ve yanıt sürelerini izlemeyi sağlar."
+                                         },
+                                         {
+                                             "title":  "Lighthouse",
+                                             "definition":  "Performans, erişilebilirlik, SEO ve iyi uygulamalar için web sayfasını analiz eden raporlama aracıdır."
+                                         },
+                                         {
+                                             "title":  "Sources",
+                                             "definition":  "JavaScript dosyalarını incelemek, hata ayıklamak ve breakpoint eklemek için kullanılan paneldir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "yazilim",
+                           "title":  "Yazılım",
+                           "description":  "Programlama, algoritma, değişkenler ve temel yazılım mantığı hakkında kısa bilgiler.",
+                           "icon":  "KOD",
+                           "group":  "Yazılım ve Web",
+                           "legacyUrl":  "pages/yazilim.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Programlama Nedir?",
+                                             "definition":  "Programlama, bilgisayara belirli görevleri yaptırmak için komutlar yazma sürecidir. Bu komutlar bir programlama diliyle hazırlanır."
+                                         },
+                                         {
+                                             "title":  "Algoritma Nedir?",
+                                             "definition":  "Algoritma, bir problemi çözmek için izlenen adım adım yol haritasıdır. İyi bir algoritma, çözümü daha anlaşılır ve düzenli hale getirir."
+                                         },
+                                         {
+                                             "title":  "Değişken Nedir?",
+                                             "definition":  "Değişken, program içinde veri saklamak için kullanılan isimlendirilmiş alandır. Sayılar, metinler veya farklı veri türleri değişkenlerde tutulabilir."
+                                         },
+                                         {
+                                             "title":  "Fonksiyon Nedir?",
+                                             "definition":  "Fonksiyon, belirli bir işi yapan ve gerektiğinde tekrar çağrılabilen kod bloğudur. Kod tekrarını azaltır ve programı daha okunabilir yapar."
+                                         },
+                                         {
+                                             "title":  "Hata Ayıklama Nedir?",
+                                             "definition":  "Hata ayıklama, programdaki sorunları bulma ve düzeltme sürecidir. Konsol çıktıları, hata mesajları ve debug araçları bu süreçte yardımcı olur."
+                                         },
+                                         {
+                                             "title":  "Kütüphane Nedir?",
+                                             "definition":  "Kütüphane, sık kullanılan hazır kodların bir araya getirildiği yapıdır. Geliştiriciler bu kodları kullanarak daha hızlı uygulama geliştirebilir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "mobil-gelistirme",
+                           "title":  "Mobil Geliştirme",
+                           "description":  "Android, iOS, mobil uygulama, React Native ve Flutter kavramları hakkında kısa bilgiler.",
+                           "icon":  "APP",
+                           "group":  "Yazılım ve Web",
+                           "legacyUrl":  "pages/mobil-gelistirme.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Mobil Uygulama Nedir?",
+                                             "definition":  "Mobil uygulama, telefon ve tablet gibi taşınabilir cihazlarda çalışan yazılımdır. Bankacılık, mesajlaşma, oyun ve üretkenlik uygulamaları buna örnektir."
+                                         },
+                                         {
+                                             "title":  "Android Nedir?",
+                                             "definition":  "Android, birçok telefon ve tablette kullanılan mobil işletim sistemidir. Geliştiriciler Android uygulamalarını genellikle Kotlin veya Java ile yazar."
+                                         },
+                                         {
+                                             "title":  "iOS Nedir?",
+                                             "definition":  "iOS, iPhone cihazlarda kullanılan Apple mobil işletim sistemidir. iOS uygulamaları çoğunlukla Swift dili ve Apple araçlarıyla geliştirilir."
+                                         },
+                                         {
+                                             "title":  "React Native Nedir?",
+                                             "definition":  "React Native, JavaScript ve React bilgisiyle Android ve iOS uygulamaları geliştirmeyi sağlayan framework\u0027tür. Tek kod tabanıyla iki platforma çıkmak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "Flutter Nedir?",
+                                             "definition":  "Flutter, Google tarafından geliştirilen ve Dart diliyle mobil, web ve masaüstü uygulamalar üretmeye yarayan arayüz framework\u0027üdür."
+                                         },
+                                         {
+                                             "title":  "APK Nedir?",
+                                             "definition":  "APK, Android uygulamalarının kurulum paketidir. Bir Android uygulaması cihaza yüklenirken genellikle APK veya benzeri paket formatları kullanılır."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "veritabani",
+                           "title":  "Veritabanı",
+                           "description":  "SQL, tablolar ve veritabanı ilişkileri hakkında başlangıç seviyesinde bilgiler.",
+                           "icon":  "SQL",
+                           "group":  "Yazılım ve Web",
+                           "legacyUrl":  "pages/veritabani.html",
+                           "terms":  [
+                                         {
+                                             "title":  "SQL Nedir?",
+                                             "definition":  "SQL, veritabanındaki verileri sorgulamak, eklemek, güncellemek ve silmek için kullanılan dildir."
+                                         },
+                                         {
+                                             "title":  "Tablo Nedir?",
+                                             "definition":  "Tablo, veritabanında bilgilerin satır ve sütunlar halinde saklandığı yapıdır. Örneğin müşteriler, ürünler veya siparişler ayrı tablolar halinde tutulabilir."
+                                         },
+                                         {
+                                             "title":  "Primary Key Nedir?",
+                                             "definition":  "Primary key, bir tablodaki her kaydı benzersiz şekilde tanımlayan alandır. Genellikle ID alanı primary key olarak kullanılır."
+                                         },
+                                         {
+                                             "title":  "Foreign Key Nedir?",
+                                             "definition":  "Foreign key, bir tablonun başka bir tabloyla ilişki kurmasını sağlayan alandır. Örneğin sipariş tablosundaki müşteri ID değeri, müşteriler tablosuna bağlanabilir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "html-terimleri",
+                           "title":  "HTML Terimleri",
+                           "description":  "Web sayfalarının temel yapı taşlarını oluşturan HTML etiketleri ve kavramları.",
+                           "icon":  "HTML",
+                           "group":  "Teknoloji Sözlüğü",
+                           "legacyUrl":  "pages/html-terimleri.html",
+                           "terms":  [
+                                         {
+                                             "title":  "html",
+                                             "definition":  "Bir HTML belgesinin kök elementidir ve sayfadaki tüm içeriği kapsar."
+                                         },
+                                         {
+                                             "title":  "head",
+                                             "definition":  "Sayfanın başlık, karakter seti, stil dosyaları ve arama motoru bilgileri gibi meta verilerini içerir."
+                                         },
+                                         {
+                                             "title":  "body",
+                                             "definition":  "Kullanıcının tarayıcıda gördüğü başlık, metin, görsel, form ve diğer içerikleri barındırır."
+                                         },
+                                         {
+                                             "title":  "title",
+                                             "definition":  "Tarayıcı sekmesinde görünen sayfa başlığını tanımlayan HTML elementidir."
+                                         },
+                                         {
+                                             "title":  "meta",
+                                             "definition":  "Karakter kodlaması, açıklama ve görünüm ayarları gibi sayfa hakkında ek bilgiler tanımlar."
+                                         },
+                                         {
+                                             "title":  "link",
+                                             "definition":  "HTML belgesine CSS dosyası veya ikon gibi dış kaynakları bağlamak için kullanılan etikettir."
+                                         },
+                                         {
+                                             "title":  "script",
+                                             "definition":  "Sayfaya JavaScript kodu eklemek veya harici JavaScript dosyası bağlamak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "div",
+                                             "definition":  "HTML içerisinde içerikleri gruplamak için kullanılan genel amaçlı blok elementidir."
+                                         },
+                                         {
+                                             "title":  "span",
+                                             "definition":  "Metin veya küçük içerik parçalarını satır içinde gruplamak için kullanılan genel amaçlı elementtir."
+                                         },
+                                         {
+                                             "title":  "section",
+                                             "definition":  "Sayfa içinde belirli bir konuyu veya içerik bölümünü anlamlı şekilde gruplar."
+                                         },
+                                         {
+                                             "title":  "article",
+                                             "definition":  "Blog yazısı, haber, kart veya yorum gibi kendi başına anlamlı içerikleri temsil eder."
+                                         },
+                                         {
+                                             "title":  "header",
+                                             "definition":  "Sayfanın veya bir bölümün giriş alanını, başlığını ve üst bilgilerini tanımlar."
+                                         },
+                                         {
+                                             "title":  "footer",
+                                             "definition":  "Sayfanın veya bir bölümün alt bilgi, bağlantı ve telif gibi tamamlayıcı içeriklerini barındırır."
+                                         },
+                                         {
+                                             "title":  "nav",
+                                             "definition":  "Ana menü veya sayfa içi bağlantılar gibi gezinme bağlantılarını gruplamak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "main",
+                                             "definition":  "Sayfanın benzersiz ve ana içeriğini temsil eden HTML elementidir."
+                                         },
+                                         {
+                                             "title":  "form",
+                                             "definition":  "Kullanıcıdan veri almak ve bu verileri göndermek için kullanılan form alanını tanımlar."
+                                         },
+                                         {
+                                             "title":  "input",
+                                             "definition":  "Metin, sayı, e-posta, dosya veya seçim gibi farklı türlerde kullanıcı girişi almak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "button",
+                                             "definition":  "Form gönderme, işlem başlatma veya JavaScript ile etkileşim oluşturma amacıyla kullanılan düğmedir."
+                                         },
+                                         {
+                                             "title":  "label",
+                                             "definition":  "Bir form alanının ne işe yaradığını açıklayan ve ilgili giriş alanıyla bağlanabilen etikettir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "css-terimleri",
+                           "title":  "CSS Terimleri",
+                           "description":  "Web sitelerinin görünümünü oluşturan CSS özellikleri ve tasarım kavramları.",
+                           "icon":  "CSS",
+                           "group":  "Teknoloji Sözlüğü",
+                           "legacyUrl":  "pages/css-terimleri.html",
+                           "terms":  [
+                                         {
+                                             "title":  "display",
+                                             "definition":  "Bir HTML elementinin sayfada nasıl yerleşeceğini belirleyen temel CSS özelliğidir."
+                                         },
+                                         {
+                                             "title":  "flex",
+                                             "definition":  "Elemanların yatay veya dikey eksende kolayca hizalanmasını sağlayan CSS yerleşim sistemidir."
+                                         },
+                                         {
+                                             "title":  "grid",
+                                             "definition":  "İçerikleri satır ve sütunlardan oluşan iki boyutlu bir düzende yerleştirmeyi sağlar."
+                                         },
+                                         {
+                                             "title":  "position",
+                                             "definition":  "Bir elementin normal akışa, ekrana veya başka bir elemana göre nasıl konumlanacağını belirler."
+                                         },
+                                         {
+                                             "title":  "margin",
+                                             "definition":  "Bir elementin dışındaki boşluğu ayarlayarak diğer elementlerle arasındaki mesafeyi belirler."
+                                         },
+                                         {
+                                             "title":  "padding",
+                                             "definition":  "Bir elementin içeriği ile kenarlığı arasındaki iç boşluğu belirleyen CSS özelliğidir."
+                                         },
+                                         {
+                                             "title":  "gap",
+                                             "definition":  "Flex veya grid içindeki öğeler arasında düzenli boşluk bırakmak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "justify-content",
+                                             "definition":  "Flex veya grid öğelerini ana eksen üzerinde hizalamak ve dağıtmak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "align-items",
+                                             "definition":  "Flex veya grid öğelerini çapraz eksen üzerinde hizalamak için kullanılan CSS özelliğidir."
+                                         },
+                                         {
+                                             "title":  "var()",
+                                             "definition":  "CSS değişkenlerinin değerini başka CSS kuralları içinde kullanmayı sağlayan fonksiyondur."
+                                         },
+                                         {
+                                             "title":  ":root",
+                                             "definition":  "Belgenin en üst düzey elementini seçer ve genellikle genel CSS değişkenlerini tanımlamak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "hover",
+                                             "definition":  "Kullanıcı bir elementin üzerine geldiğinde uygulanacak stilleri tanımlayan durum seçicisidir."
+                                         },
+                                         {
+                                             "title":  "transition",
+                                             "definition":  "CSS değerleri değişirken bu değişimin belirli süre ve geçiş efektiyle gerçekleşmesini sağlar."
+                                         },
+                                         {
+                                             "title":  "transform",
+                                             "definition":  "Bir elementi döndürmek, ölçeklemek, taşımak veya eğmek için kullanılan CSS özelliğidir."
+                                         },
+                                         {
+                                             "title":  "z-index",
+                                             "definition":  "Üst üste gelen konumlandırılmış elementlerin hangisinin önde görüneceğini belirler."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "javascript-terimleri",
+                           "title":  "JavaScript Terimleri",
+                           "description":  "Web sayfalarına etkileşim kazandıran JavaScript kavramları ve fonksiyonları.",
+                           "icon":  "JS",
+                           "group":  "Teknoloji Sözlüğü",
+                           "legacyUrl":  "pages/javascript-terimleri.html",
+                           "terms":  [
+                                         {
+                                             "title":  "const",
+                                             "definition":  "Yeniden atama yapılamayan bir değişken tanımlamak için kullanılan JavaScript anahtar kelimesidir."
+                                         },
+                                         {
+                                             "title":  "let",
+                                             "definition":  "Blok kapsamına sahip ve değeri sonradan değiştirilebilen değişken tanımlamak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "querySelector",
+                                             "definition":  "CSS seçicisi kullanarak HTML içerisindeki bir elementi seçmeye yarayan JavaScript metodudur."
+                                         },
+                                         {
+                                             "title":  "querySelectorAll",
+                                             "definition":  "CSS seçicisiyle eşleşen tüm elementleri liste benzeri bir yapı olarak seçen JavaScript metodudur."
+                                         },
+                                         {
+                                             "title":  "addEventListener",
+                                             "definition":  "Bir elementte tıklama, klavye veya form gönderme gibi olayları dinlemek için kullanılan metottur."
+                                         },
+                                         {
+                                             "title":  "if",
+                                             "definition":  "Belirli bir koşul doğruysa kod bloğunun çalışmasını sağlayan karar yapısıdır."
+                                         },
+                                         {
+                                             "title":  "for",
+                                             "definition":  "Belirli bir koşul sağlandığı sürece kodu tekrar çalıştırmak için kullanılan döngü yapısıdır."
+                                         },
+                                         {
+                                             "title":  "function",
+                                             "definition":  "Tekrar kullanılabilir bir kod bloğu tanımlamak için kullanılan JavaScript yapısıdır."
+                                         },
+                                         {
+                                             "title":  "arrow function",
+                                             "definition":  "Fonksiyonları daha kısa söz dizimiyle yazmayı sağlayan modern JavaScript fonksiyon biçimidir."
+                                         },
+                                         {
+                                             "title":  "fetch",
+                                             "definition":  "Bir sunucudan veri almak veya sunucuya istek göndermek için kullanılan tarayıcı API\u0027sidir."
+                                         },
+                                         {
+                                             "title":  "async",
+                                             "definition":  "Bir fonksiyonun asenkron çalışacağını ve Promise döndürebileceğini belirtmek için kullanılır."
+                                         },
+                                         {
+                                             "title":  "await",
+                                             "definition":  "Asenkron bir işlemin sonucunu beklemek ve kodu daha okunur yazmak için kullanılan anahtar kelimedir."
+                                         },
+                                         {
+                                             "title":  "JSON",
+                                             "definition":  "Verileri anahtar-değer yapısıyla taşımak için kullanılan hafif ve metin tabanlı veri formatıdır."
+                                         },
+                                         {
+                                             "title":  "DOM",
+                                             "definition":  "HTML belgesini JavaScript ile okunabilir ve değiştirilebilir bir ağaç yapısı olarak temsil eder."
+                                         },
+                                         {
+                                             "title":  "localStorage",
+                                             "definition":  "Tarayıcıda küçük verileri kalıcı olarak saklamak için kullanılan yerel depolama alanıdır."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "python-terimleri",
+                           "title":  "Python Terimleri",
+                           "description":  "Python programlama dilinde sık kullanılan temel kavramlar.",
+                           "icon":  "PY",
+                           "group":  "Teknoloji Sözlüğü",
+                           "legacyUrl":  "pages/python-terimleri.html",
+                           "terms":  [
+                                         {
+                                             "title":  "print",
+                                             "definition":  "Bir değeri veya metni ekrana yazdırmak için kullanılan temel Python fonksiyonudur."
+                                         },
+                                         {
+                                             "title":  "input",
+                                             "definition":  "Kullanıcıdan klavye aracılığıyla veri almak için kullanılan Python fonksiyonudur."
+                                         },
+                                         {
+                                             "title":  "list",
+                                             "definition":  "Birden fazla değeri sıralı ve değiştirilebilir şekilde saklayan Python veri yapısıdır."
+                                         },
+                                         {
+                                             "title":  "tuple",
+                                             "definition":  "Birden fazla değeri sıralı ama değiştirilemez şekilde saklayan Python veri yapısıdır."
+                                         },
+                                         {
+                                             "title":  "dictionary",
+                                             "definition":  "Anahtar-değer mantığıyla çalışan veri saklama yapısıdır."
+                                         },
+                                         {
+                                             "title":  "function",
+                                             "definition":  "Belirli bir görevi yapan ve gerektiğinde tekrar çağrılabilen kod bloğudur."
+                                         },
+                                         {
+                                             "title":  "import",
+                                             "definition":  "Başka bir modül veya kütüphanedeki kodları mevcut Python dosyasına dahil etmek için kullanılır."
+                                         },
+                                         {
+                                             "title":  "Path",
+                                             "definition":  "Dosya ve klasör yollarıyla daha okunur şekilde çalışmayı sağlayan pathlib sınıfıdır."
+                                         },
+                                         {
+                                             "title":  "json",
+                                             "definition":  "JSON verilerini okumak, yazmak ve Python veri yapılarına dönüştürmek için kullanılan modüldür."
+                                         },
+                                         {
+                                             "title":  "try",
+                                             "definition":  "Hata oluşturabilecek kodları güvenli şekilde çalıştırmak için kullanılan hata yakalama bloğunun başlangıcıdır."
+                                         },
+                                         {
+                                             "title":  "except",
+                                             "definition":  "try bloğunda oluşan hatayı yakalayıp uygun kodu çalıştırmak için kullanılır."
+                                         },
+                                         {
+                                             "title":  "class",
+                                             "definition":  "Nesne tabanlı programlamada özellik ve davranışları bir araya getiren yapı tanımıdır."
+                                         },
+                                         {
+                                             "title":  "venv",
+                                             "definition":  "Projeye özel bağımsız Python çalışma ortamı oluşturmak için kullanılan sanal ortam aracıdır."
+                                         },
+                                         {
+                                             "title":  "pip",
+                                             "definition":  "Python paketlerini yüklemek, güncellemek ve kaldırmak için kullanılan paket yöneticisidir."
+                                         },
+                                         {
+                                             "title":  "API",
+                                             "definition":  "Farklı yazılımların belirli kurallar üzerinden birbiriyle veri alışverişi yapmasını sağlayan arayüzdür."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "yapay-zeka",
+                           "title":  "Yapay Zeka",
+                           "description":  "Yapay zeka, LLM, prompt, AI agent ve otomasyon kavramları hakkında kısa ve sade bilgiler.",
+                           "icon":  "AI",
+                           "group":  "Veri ve Yapay Zeka",
+                           "legacyUrl":  "pages/yapay-zeka.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Yapay Zeka Nedir?",
+                                             "definition":  "Yapay zeka, bilgisayar sistemlerinin insan benzeri şekilde öğrenme, yorumlama, karar verme veya içerik üretme yetenekleri kazanmasını sağlayan teknolojiler bütünüdür."
+                                         },
+                                         {
+                                             "title":  "LLM Nedir?",
+                                             "definition":  "LLM, büyük dil modeli anlamına gelir. Çok büyük metin verileriyle eğitilen ve metin anlama, yazma, özetleme, çeviri ve soru cevaplama gibi görevleri yapabilen yapay zeka modelidir."
+                                         },
+                                         {
+                                             "title":  "Prompt Nedir?",
+                                             "definition":  "Prompt, yapay zekaya verilen komut veya yönergedir. Yapay zekadan nasıl bir cevap beklendiğini prompt ile tarif ederiz."
+                                         },
+                                         {
+                                             "title":  "AI Agent Nedir?",
+                                             "definition":  "AI agent, yalnızca cevap veren değil; hedefe göre plan yapabilen, araçları kullanabilen ve bazı görevleri adım adım yürütebilen yapay zeka sistemidir."
+                                         },
+                                         {
+                                             "title":  "Agentic OS Nedir?",
+                                             "definition":  "Agentic OS, birden fazla AI agent\u0027ı, görevleri, hafızayı, araç bağlantılarını ve projeleri tek yerden yönetmeye yarayan çalışma ortamı gibi düşünülebilir."
+                                         },
+                                         {
+                                             "title":  "Hermes Agent Nedir?",
+                                             "definition":  "Hermes Agent, farklı görevler için kişiselleştirilebilen AI agent\u0027lar kurmaya ve bu agent\u0027ları terminal, Telegram, araçlar ve proje hafızasıyla birlikte kullanmaya odaklanan bir sistemdir."
+                                         },
+                                         {
+                                             "title":  "MCP Nedir?",
+                                             "definition":  "MCP, yapay zeka araçlarının dosya, veritabanı, takvim, e-posta veya farklı servislerle daha düzenli şekilde bağlantı kurmasını sağlayan bir entegrasyon yaklaşımıdır."
+                                         },
+                                         {
+                                             "title":  "AI Otomasyonu Nedir?",
+                                             "definition":  "AI otomasyonu, tekrar eden işleri yapay zeka yardımıyla otomatikleştirmektir. Örneğin e-posta özetleme, içerik hazırlama, veri ayıklama veya müşteri takibi bu kapsama girebilir."
+                                         },
+                                         {
+                                             "title":  "n8n Nedir?",
+                                             "definition":  "n8n, farklı uygulamaları birbirine bağlayarak iş akışları kurmaya yarayan otomasyon aracıdır. Yapay zeka servisleriyle birlikte kullanıldığında AI destekli süreçler oluşturabilir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "veri-bilimi",
+                           "title":  "Veri Bilimi",
+                           "description":  "Veri analizi, veri seti, makine öğrenmesi ve görselleştirme kavramları hakkında kısa bilgiler.",
+                           "icon":  "DATA",
+                           "group":  "Veri ve Yapay Zeka",
+                           "legacyUrl":  "pages/veri-bilimi.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Veri Bilimi Nedir?",
+                                             "definition":  "Veri bilimi, verilerden anlamlı sonuçlar çıkarmak için istatistik, programlama ve alan bilgisini birleştiren çalışma alanıdır."
+                                         },
+                                         {
+                                             "title":  "Veri Analizi Nedir?",
+                                             "definition":  "Veri analizi, ham verileri inceleyerek desenleri, sorunları veya fırsatları bulma sürecidir. Raporlama ve karar verme için temel oluşturur."
+                                         },
+                                         {
+                                             "title":  "Veri Seti Nedir?",
+                                             "definition":  "Veri seti, belirli bir konuya ait düzenli veri koleksiyonudur. Satırlar gözlemleri, sütunlar ise özellikleri temsil edebilir."
+                                         },
+                                         {
+                                             "title":  "Makine Öğrenmesi Nedir?",
+                                             "definition":  "Makine öğrenmesi, bilgisayarların açıkça tek tek kurallarla programlanmadan verilerden örüntü öğrenmesini sağlayan yapay zeka alanıdır."
+                                         },
+                                         {
+                                             "title":  "Veri Görselleştirme Nedir?",
+                                             "definition":  "Veri görselleştirme, verileri grafik, tablo veya harita gibi görsel biçimlerle anlatma yöntemidir. Karmaşık bilgileri daha anlaşılır hale getirir."
+                                         },
+                                         {
+                                             "title":  "Model Eğitimi Nedir?",
+                                             "definition":  "Model eğitimi, makine öğrenmesi modelinin örnek veriler üzerinden tahmin yapmayı öğrenme sürecidir. Model daha sonra yeni veriler üzerinde sonuç üretir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "ag-ve-internet",
+                           "title":  "Ağ ve İnternet",
+                           "description":  "İnternet, IP adresi, DNS, HTTP ve Wi-Fi gibi bağlantı kavramları hakkında kısa bilgiler.",
+                           "icon":  "NET",
+                           "group":  "Sistemler ve Güvenlik",
+                           "legacyUrl":  "pages/ag-ve-internet.html",
+                           "terms":  [
+                                         {
+                                             "title":  "İnternet Nedir?",
+                                             "definition":  "İnternet, dünya çapındaki bilgisayarların ve sunucuların birbirine bağlandığı büyük iletişim ağıdır. Web siteleri, e-posta ve çevrim içi servisler bu ağ üzerinden çalışır."
+                                         },
+                                         {
+                                             "title":  "IP Adresi Nedir?",
+                                             "definition":  "IP adresi, ağa bağlı bir cihazın adresidir. Cihazların internet veya yerel ağ içinde birbirini bulmasına yardımcı olur."
+                                         },
+                                         {
+                                             "title":  "DNS Nedir?",
+                                             "definition":  "DNS, alan adlarını IP adreslerine çeviren sistemdir. Böylece kullanıcılar sayısal adresler yerine kolay hatırlanan site adlarını yazar."
+                                         },
+                                         {
+                                             "title":  "HTTP Nedir?",
+                                             "definition":  "HTTP, tarayıcı ile web sunucusu arasında veri alışverişini sağlayan protokoldür. HTTPS ise bu iletişimin şifrelenmiş ve daha güvenli halidir."
+                                         },
+                                         {
+                                             "title":  "Router Nedir?",
+                                             "definition":  "Router, cihazları ağa bağlayan ve verinin doğru yere gitmesini sağlayan yönlendiricidir. Evdeki internet modemlerinin içinde genellikle router özelliği de bulunur."
+                                         },
+                                         {
+                                             "title":  "Wi-Fi Nedir?",
+                                             "definition":  "Wi-Fi, cihazların kablosuz olarak ağa bağlanmasını sağlayan teknolojidir. Telefon, bilgisayar ve akıllı cihazlar internet bağlantısını bu şekilde kullanabilir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "isletim-sistemleri",
+                           "title":  "İşletim Sistemleri",
+                           "description":  "Windows, Linux, macOS, dosya sistemi ve terminal kavramları hakkında kısa bilgiler.",
+                           "icon":  "OS",
+                           "group":  "Sistemler ve Güvenlik",
+                           "legacyUrl":  "pages/isletim-sistemleri.html",
+                           "terms":  [
+                                         {
+                                             "title":  "İşletim Sistemi Nedir?",
+                                             "definition":  "İşletim sistemi, bilgisayar donanımı ile kullanıcı ve programlar arasında köprü kuran temel yazılımdır. Dosyaları, uygulamaları ve kaynakları yönetir."
+                                         },
+                                         {
+                                             "title":  "Windows Nedir?",
+                                             "definition":  "Windows, Microsoft tarafından geliştirilen yaygın bir işletim sistemidir. Kişisel bilgisayarlarda, ofis ortamlarında ve oyun bilgisayarlarında sık kullanılır."
+                                         },
+                                         {
+                                             "title":  "Linux Nedir?",
+                                             "definition":  "Linux, açık kaynaklı işletim sistemi çekirdeği ve onun etrafındaki dağıtımların genel adıdır. Sunucularda, geliştirici ortamlarında ve gömülü sistemlerde yaygındır."
+                                         },
+                                         {
+                                             "title":  "macOS Nedir?",
+                                             "definition":  "macOS, Apple bilgisayarlarda kullanılan işletim sistemidir. Grafik, yazılım geliştirme ve günlük kullanım için tasarlanmış bütünleşik bir ortam sunar."
+                                         },
+                                         {
+                                             "title":  "Dosya Sistemi Nedir?",
+                                             "definition":  "Dosya sistemi, verilerin diskte nasıl saklandığını ve düzenlendiğini belirleyen yapıdır. Klasörler, dosya adları ve izinler bu sistemin parçasıdır."
+                                         },
+                                         {
+                                             "title":  "Terminal Nedir?",
+                                             "definition":  "Terminal, komut yazarak bilgisayarla etkileşim kurmayı sağlayan arayüzdür. Yazılım geliştirme, dosya işlemleri ve sistem yönetiminde sık kullanılır."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "bulut-ve-devops",
+                           "title":  "Bulut ve DevOps",
+                           "description":  "Bulut bilişim, sunucu, Docker, deployment ve CI/CD süreçleri hakkında temel bilgiler.",
+                           "icon":  "OPS",
+                           "group":  "Sistemler ve Güvenlik",
+                           "legacyUrl":  "pages/bulut-ve-devops.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Bulut Bilişim Nedir?",
+                                             "definition":  "Bulut bilişim, sunucu, depolama ve yazılım kaynaklarının internet üzerinden kullanılmasını sağlayan yaklaşımdır. Kullanıcılar fiziksel sunucu kurmadan servis çalıştırabilir."
+                                         },
+                                         {
+                                             "title":  "Sunucu Nedir?",
+                                             "definition":  "Sunucu, başka cihazlara veri, uygulama veya hizmet sağlayan bilgisayardır. Web siteleri ve API\u0027ler çoğunlukla sunucular üzerinde çalışır."
+                                         },
+                                         {
+                                             "title":  "Deployment Nedir?",
+                                             "definition":  "Deployment, geliştirilen uygulamanın kullanıcıların erişebileceği ortama yayınlanmasıdır. Bir web sitesini canlı sunucuya almak buna örnektir."
+                                         },
+                                         {
+                                             "title":  "Docker Nedir?",
+                                             "definition":  "Docker, uygulamaları ve ihtiyaç duydukları bağımlılıkları container adı verilen taşınabilir paketler içinde çalıştırmaya yarayan araçtır."
+                                         },
+                                         {
+                                             "title":  "CI/CD Nedir?",
+                                             "definition":  "CI/CD, kod değişikliklerinin otomatik test edilmesi ve uygun ortama yayınlanması sürecidir. Yazılımı daha düzenli ve güvenli dağıtmayı sağlar."
+                                         },
+                                         {
+                                             "title":  "Kubernetes Nedir?",
+                                             "definition":  "Kubernetes, container tabanlı uygulamaları çok sayıda sunucu üzerinde yönetmeye yarayan sistemdir. Ölçekleme ve otomatik yeniden başlatma gibi görevleri kolaylaştırır."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "siber-guvenlik",
+                           "title":  "Siber Güvenlik",
+                           "description":  "Parola güvenliği, oltalama, kötü amaçlı yazılım ve temel korunma yöntemleri.",
+                           "icon":  "SEC",
+                           "group":  "Sistemler ve Güvenlik",
+                           "legacyUrl":  "pages/siber-guvenlik.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Siber Güvenlik Nedir?",
+                                             "definition":  "Siber güvenlik, dijital sistemleri, verileri ve ağları tehditlere karşı koruma sürecidir. Amaç, bilgilerin gizliliğini ve bütünlüğünü korumaktır."
+                                         },
+                                         {
+                                             "title":  "Güçlü Parola Nedir?",
+                                             "definition":  "Güçlü parola, tahmin edilmesi zor ve farklı karakter türleri içeren paroladır. Her hesap için farklı parola kullanmak güvenliği artırır."
+                                         },
+                                         {
+                                             "title":  "İki Aşamalı Doğrulama Nedir?",
+                                             "definition":  "İki aşamalı doğrulama, hesaba girişte parola dışında ikinci bir onay adımı ister. SMS, uygulama kodu veya güvenlik anahtarı kullanılabilir."
+                                         },
+                                         {
+                                             "title":  "Phishing Nedir?",
+                                             "definition":  "Phishing, kullanıcıyı kandırarak parola veya kişisel bilgi çalmayı amaçlayan sahte mesaj, e-posta veya site yöntemidir."
+                                         },
+                                         {
+                                             "title":  "Kötü Amaçlı Yazılım Nedir?",
+                                             "definition":  "Kötü amaçlı yazılım, cihaza zarar vermek, veri çalmak veya sistemi ele geçirmek için hazırlanmış yazılımdır. Virüsler ve fidye yazılımları buna örnektir."
+                                         },
+                                         {
+                                             "title":  "Güncelleme Neden Önemlidir?",
+                                             "definition":  "Güncellemeler, yazılımlardaki güvenlik açıklarını kapatır. İşletim sistemi ve uygulamaları güncel tutmak temel korunma adımlarından biridir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "donanim",
+                           "title":  "Donanım",
+                           "description":  "İşlemci, RAM, depolama, ekran kartı ve bilgisayar parçaları hakkında başlangıç bilgileri.",
+                           "icon":  "PC",
+                           "group":  "Donanım ve Üretim",
+                           "legacyUrl":  "pages/donanim.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Donanım Nedir?",
+                                             "definition":  "Donanım, bilgisayarın fiziksel parçalarının genel adıdır. Klavye, ekran, işlemci, bellek ve depolama birimleri donanıma örnektir."
+                                         },
+                                         {
+                                             "title":  "İşlemci Nedir?",
+                                             "definition":  "İşlemci, bilgisayarın komutları çalıştıran ana parçasıdır. Programların hesaplama ve karar verme işlemlerinin büyük kısmı işlemci üzerinde yapılır."
+                                         },
+                                         {
+                                             "title":  "RAM Nedir?",
+                                             "definition":  "RAM, bilgisayarın geçici belleğidir. Açık programların ve o anda kullanılan verilerin hızlı erişim için tutulduğu alandır."
+                                         },
+                                         {
+                                             "title":  "SSD Nedir?",
+                                             "definition":  "SSD, verileri hızlı şekilde saklayan depolama birimidir. Geleneksel sabit disklere göre daha sessiz, hızlı ve dayanıklıdır."
+                                         },
+                                         {
+                                             "title":  "Anakart Nedir?",
+                                             "definition":  "Anakart, bilgisayar parçalarının birbirine bağlandığı ana devre kartıdır. İşlemci, RAM, depolama ve ekran kartı gibi parçalar anakart üzerinden iletişim kurar."
+                                         },
+                                         {
+                                             "title":  "Ekran Kartı Nedir?",
+                                             "definition":  "Ekran kartı, görüntü üretme ve grafik işlemlerini hızlandırma görevini üstlenir. Oyun, video düzenleme ve yapay zeka işlerinde önemli olabilir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "arduino",
+                           "title":  "Arduino",
+                           "description":  "Elektronik projeler, sensörler, devre elemanları ve Arduino kartları hakkında kısa bilgiler.",
+                           "icon":  "ARD",
+                           "group":  "Donanım ve Üretim",
+                           "legacyUrl":  "pages/arduino.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Arduino Nedir?",
+                                             "definition":  "Arduino, elektronik projeler geliştirmek için kullanılan programlanabilir geliştirme kartıdır. Sensörler, motorlar ve LED gibi parçalarla çalışabilir."
+                                         },
+                                         {
+                                             "title":  "Sensör Nedir?",
+                                             "definition":  "Sensör, ortamdan sıcaklık, ışık, mesafe veya hareket gibi verileri algılayan elektronik parçadır. Arduino bu verileri okuyup işlem yapabilir."
+                                         },
+                                         {
+                                             "title":  "LED Nedir?",
+                                             "definition":  "LED, elektrik verildiğinde ışık yayan basit ve yaygın kullanılan elektronik bileşendir. Arduino projelerinde ilk denemeler için sıkça kullanılır."
+                                         },
+                                         {
+                                             "title":  "Breadboard Nedir?",
+                                             "definition":  "Breadboard, devre elemanlarını lehim yapmadan geçici olarak bağlamayı sağlayan deneme tahtasıdır. Prototip hazırlamayı kolaylaştırır."
+                                         },
+                                         {
+                                             "title":  "Direnç Nedir?",
+                                             "definition":  "Direnç, devreden geçen akımı sınırlayan elektronik bileşendir. LED gibi parçaları korumak ve devreyi düzenlemek için kullanılır."
+                                         },
+                                         {
+                                             "title":  "PWM Nedir?",
+                                             "definition":  "PWM, dijital pinlerle analog benzeri çıkış üretme yöntemidir. LED parlaklığı veya motor hızı gibi değerleri kontrol etmekte kullanılabilir."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "3d-baski",
+                           "title":  "3D Baskı",
+                           "description":  "3D yazıcılar, filamentler, modeller ve baskı süreci hakkında başlangıç bilgileri.",
+                           "icon":  "3D",
+                           "group":  "Donanım ve Üretim",
+                           "legacyUrl":  "pages/3d-baski.html",
+                           "terms":  [
+                                         {
+                                             "title":  "3D Yazıcı Nedir?",
+                                             "definition":  "3D yazıcı, dijital modelleri katman katman fiziksel nesnelere dönüştüren cihazdır. Parçalar genellikle plastik filament eritilerek oluşturulur."
+                                         },
+                                         {
+                                             "title":  "Filament Nedir?",
+                                             "definition":  "Filament, 3D yazıcının baskı yapmak için erittiği plastik hammaddedir. PLA, PETG ve ABS gibi farklı filament türleri vardır."
+                                         },
+                                         {
+                                             "title":  "STL Dosyası Nedir?",
+                                             "definition":  "STL, 3D modellerin yazıcıya hazırlanmasında sık kullanılan dosya formatıdır. Modelin yüzey yapısını üçgenlerden oluşan bir veriyle tanımlar."
+                                         },
+                                         {
+                                             "title":  "Slicer Nedir?",
+                                             "definition":  "Slicer, 3D modeli yazıcının anlayacağı katmanlara ve hareket komutlarına dönüştüren yazılımdır. Baskı kalitesi büyük ölçüde bu ayarlara bağlıdır."
+                                         },
+                                         {
+                                             "title":  "Katman Yüksekliği Nedir?",
+                                             "definition":  "Katman yüksekliği, baskının her bir katmanının kalınlığını belirtir. Düşük değerler daha detaylı, yüksek değerler daha hızlı baskı sağlar."
+                                         },
+                                         {
+                                             "title":  "Destek Yapısı Nedir?",
+                                             "definition":  "Destek yapısı, havada kalan veya eğimli parçaların baskı sırasında çökmesini engellemek için geçici olarak basılan yardımcı bölümdür."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "yazilim-araclari",
+                           "title":  "Yazılım Araçları",
+                           "description":  "Git, GitHub, VS Code ve yazılım geliştirme sürecinde kullanılan temel araçlar.",
+                           "icon":  "GIT",
+                           "group":  "Araçlar",
+                           "legacyUrl":  "pages/yazilim-araclari.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Git Nedir?",
+                                             "definition":  "Git, kod değişikliklerini takip etmek için kullanılan versiyon kontrol sistemidir. Projede yapılan değişiklikleri kaydetmeye ve gerektiğinde eski hallere dönmeye yardımcı olur."
+                                         },
+                                         {
+                                             "title":  "GitHub Nedir?",
+                                             "definition":  "GitHub, Git ile yönetilen projelerin çevrimiçi olarak saklanmasını ve paylaşılmasını sağlayan platformdur. Takım çalışması ve proje yayını için sıkça kullanılır."
+                                         },
+                                         {
+                                             "title":  "Branch Nedir?",
+                                             "definition":  "Branch, bir projede ana kodu bozmadan farklı bir geliştirme alanı oluşturmaya yarar. Yeni özellikler genellikle ayrı branch üzerinde geliştirilir."
+                                         },
+                                         {
+                                             "title":  "Commit Nedir?",
+                                             "definition":  "Commit, projede yapılan değişikliklerin Git geçmişine kaydedilmiş halidir. Her commit, yapılan işin kısa bir açıklamasıyla birlikte saklanır."
+                                         },
+                                         {
+                                             "title":  "VS Code Nedir?",
+                                             "definition":  "VS Code, yazılım geliştirmek için kullanılan popüler ve hafif bir kod editörüdür. HTML, CSS, JavaScript, Python ve birçok dili destekler."
+                                         }
+                                     ]
+                       },
+                       {
+                           "id":  "dijital-araclar",
+                           "title":  "Dijital Araçlar",
+                           "description":  "Not alma, dosya paylaşımı, bulut servisleri ve üretkenlik araçları hakkında kısa bilgiler.",
+                           "icon":  "TOOL",
+                           "group":  "Araçlar",
+                           "legacyUrl":  "pages/dijital-araclar.html",
+                           "terms":  [
+                                         {
+                                             "title":  "Bulut Depolama Nedir?",
+                                             "definition":  "Bulut depolama, dosyaların internet üzerinden erişilebilen sunucularda saklanmasıdır. Dosyalara farklı cihazlardan ulaşmayı kolaylaştırır."
+                                         },
+                                         {
+                                             "title":  "Not Alma Uygulaması Nedir?",
+                                             "definition":  "Not alma uygulamaları fikirleri, yapılacak işleri ve araştırma notlarını düzenli tutmaya yarar. Etiket, klasör ve arama özellikleri işleri hızlandırır."
+                                         },
+                                         {
+                                             "title":  "Parola Yöneticisi Nedir?",
+                                             "definition":  "Parola yöneticisi, hesap parolalarını güvenli şekilde saklayan ve güçlü parola oluşturmayı kolaylaştıran dijital araçtır."
+                                         },
+                                         {
+                                             "title":  "Ekran Görüntüsü Aracı Nedir?",
+                                             "definition":  "Ekran görüntüsü araçları, ekrandaki bir alanı kaydetmek, işaretlemek ve paylaşmak için kullanılır. Hata anlatımı ve dokümantasyon için faydalıdır."
+                                         },
+                                         {
+                                             "title":  "Proje Yönetim Aracı Nedir?",
+                                             "definition":  "Proje yönetim araçları yapılacak işleri, sorumluları ve süreç durumlarını takip etmeye yardım eder. Takım çalışmasını daha görünür hale getirir."
+                                         },
+                                         {
+                                             "title":  "Dosya Paylaşımı Nedir?",
+                                             "definition":  "Dosya paylaşımı, belgeleri veya medya dosyalarını bağlantı ya da ortak klasör yoluyla başkalarıyla paylaşma yöntemidir."
+                                         }
+                                     ]
+                       }
+                   ]
+}

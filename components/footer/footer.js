@@ -9,26 +9,26 @@
 
         <nav class="footer-links" aria-label="Alt bilgi site bölümleri">
           <h3>Site Bölümleri</h3>
-          <a data-href="pages/web-gelistirme.html" href="#">Web Geliştirme</a>
-          <a data-href="pages/devtools-terimleri.html" href="#">DevTools Terimleri</a>
-          <a data-href="pages/yazilim-araclari.html" href="#">Yazılım Araçları</a>
-          <a data-href="pages/veritabani.html" href="#">Veritabanı</a>
-          <a data-href="pages/yapay-zeka.html" href="#">Yapay Zeka</a>
-          <a data-href="pages/yazilim.html" href="#">Yazılım</a>
-          <a data-href="pages/arduino.html" href="#">Arduino</a>
-          <a data-href="pages/3d-baski.html" href="#">3D Baskı</a>
-          <a data-href="pages/siber-guvenlik.html" href="#">Siber Güvenlik</a>
-          <a data-href="pages/dijital-araclar.html" href="#">Dijital Araçlar</a>
-          <a data-href="pages/ag-ve-internet.html" href="#">Ağ ve İnternet</a>
-          <a data-href="pages/donanim.html" href="#">Donanım</a>
-          <a data-href="pages/isletim-sistemleri.html" href="#">İşletim Sistemleri</a>
-          <a data-href="pages/bulut-ve-devops.html" href="#">Bulut ve DevOps</a>
-          <a data-href="pages/mobil-gelistirme.html" href="#">Mobil Geliştirme</a>
-          <a data-href="pages/veri-bilimi.html" href="#">Veri Bilimi</a>
-          <a data-href="pages/html-terimleri.html" href="#">HTML Terimleri</a>
-          <a data-href="pages/css-terimleri.html" href="#">CSS Terimleri</a>
-          <a data-href="pages/javascript-terimleri.html" href="#">JavaScript Terimleri</a>
-          <a data-href="pages/python-terimleri.html" href="#">Python Terimleri</a>
+          <a data-href="category.html?id=web-gelistirme" href="#">Web Geliştirme</a>
+          <a data-href="category.html?id=devtools-terimleri" href="#">DevTools Terimleri</a>
+          <a data-href="category.html?id=yazilim-araclari" href="#">Yazılım Araçları</a>
+          <a data-href="category.html?id=veritabani" href="#">Veritabanı</a>
+          <a data-href="category.html?id=yapay-zeka" href="#">Yapay Zeka</a>
+          <a data-href="category.html?id=yazilim" href="#">Yazılım</a>
+          <a data-href="category.html?id=arduino" href="#">Arduino</a>
+          <a data-href="category.html?id=3d-baski" href="#">3D Baskı</a>
+          <a data-href="category.html?id=siber-guvenlik" href="#">Siber Güvenlik</a>
+          <a data-href="category.html?id=dijital-araclar" href="#">Dijital Araçlar</a>
+          <a data-href="category.html?id=ag-ve-internet" href="#">Ağ ve İnternet</a>
+          <a data-href="category.html?id=donanim" href="#">Donanım</a>
+          <a data-href="category.html?id=isletim-sistemleri" href="#">İşletim Sistemleri</a>
+          <a data-href="category.html?id=bulut-ve-devops" href="#">Bulut ve DevOps</a>
+          <a data-href="category.html?id=mobil-gelistirme" href="#">Mobil Geliştirme</a>
+          <a data-href="category.html?id=veri-bilimi" href="#">Veri Bilimi</a>
+          <a data-href="category.html?id=html-terimleri" href="#">HTML Terimleri</a>
+          <a data-href="category.html?id=css-terimleri" href="#">CSS Terimleri</a>
+          <a data-href="category.html?id=javascript-terimleri" href="#">JavaScript Terimleri</a>
+          <a data-href="category.html?id=python-terimleri" href="#">Python Terimleri</a>
         </nav>
 
         <nav class="footer-links" aria-label="Alt bilgi diğer sayfalar">
