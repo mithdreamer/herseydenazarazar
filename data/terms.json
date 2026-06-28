@@ -830,6 +830,12 @@
                                          },
                                          {"title":"Yüzey Seçimi"
                                             ,"definition":"Fusion 360'ta bir modelin belirli bir yüzeyini seçmek için kullanılan işlemdir. Bu, model üzerinde düzenleme, ölçülendirme veya diğer işlemleri gerçekleştirmek için gereklidir."
+                                         },
+                                         {"title":"Origin (Orijin)"
+                                            ,"definition":"Koordinat sisteminin başlangıç noktasıdır."
+                                         },
+                                         {"title":"Center Rectangle (Merkezden Dikdörtgen)"
+                                            ,"definition":"Merkez noktası referans alınarak oluşturulan dikdörtgen çizim aracıdır.."
                                          }
 
 
