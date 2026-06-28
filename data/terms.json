@@ -835,7 +835,7 @@
                                             ,"definition":"Koordinat sisteminin başlangıç noktasıdır."
                                          },
                                          {"title":"Center Rectangle (Merkezden Dikdörtgen)"
-                                            ,"definition":"Merkez noktası referans alınarak oluşturulan dikdörtgen çizim aracıdır.."
+                                            ,"definition":"Merkez noktası referans alınarak oluşturulan dikdörtgen çizim aracıdır.İpucu:İlk tıklama merkez, ikinci tıklama köşeleri oluşturur."
                                          }
 
 
