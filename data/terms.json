@@ -813,7 +813,26 @@
                                          {
                                              "title":  "Parametrik Tasarım Nedir?",
                                              "definition":  "Modelin ölçülerini sonradan değiştirebilmeye olanak sağlayan tasarım yaklaşımıdır. Model, belirlenen ölçülere bağlı olarak otomatik güncellenir."
+                                         },
+                                         {
+                                            "title":  "Infill Nedir?",
+                                            "definition":  "3D baskı alınan bir parçanın iç doluluk oranını ifade eder.Yani parçanın dışı kapalıdır, ancak iç kısmının ne kadar dolu veya boş olacağını belirleyen ayardır."
+                                         },
+                                         {
+                                            "title":  "Walls (Duvar Sayısı) Nedir?",
+                                            "definition":  "Bir parçanın dış yüzeyini oluşturan katman sayısıdır."
+                                         },
+                                         {"title":"Çizim oluştur"
+                                            ,"definition":"Fusion 360'ta yeni bir 2 boyutlu çizime başlamak için kullanılan komuttur."
+                                         },
+                                         {"title":"XY Plane (XY Düzlemi)"
+                                            ,"definition":"Fusion 360'ta 3 boyutlu modelleme yaparken kullanılan düzlemlerden biridir. XY düzlemi, yatay ve dikey eksenleri temsil eder ve genellikle taban veya zemin olarak kullanılır."
+                                         },
+                                         {"title":"Yüzey Seçimi"
+                                            ,"definition":"Fusion 360'ta bir modelin belirli bir yüzeyini seçmek için kullanılan işlemdir. Bu, model üzerinde düzenleme, ölçülendirme veya diğer işlemleri gerçekleştirmek için gereklidir."
                                          }
+
+
 
                                      ]
                        },
