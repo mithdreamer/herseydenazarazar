@@ -836,8 +836,13 @@
                                          },
                                          {"title":"Center Rectangle (Merkezden Dikdörtgen)"
                                             ,"definition":"Merkez noktası referans alınarak oluşturulan dikdörtgen çizim aracıdır.İpucu:İlk tıklama merkez, ikinci tıklama köşeleri oluşturur."
-                                         }
-
+                                         },
+                                         {"title":"Dimension (Ölçülendirme) nedir?"
+                                            ,"definition":"Bir çizimdeki kenar, çap veya açı gibi geometrik öğelerin gerçek ölçüsünü belirleyen araçtır.    "
+                                         },
+                                            {"title":"Constraint (Kısıtlama) Nedir?"
+                                                ,"definition":"Bir çizimdeki öğelerin birbirine göre konumunu veya boyutunu sınırlayan kurallardır. Örneğin, iki çizgi arasındaki mesafeyi sabitlemek veya bir dairenin çapını belirlemek için kullanılır."
+                                            }
 
 
                                      ]
