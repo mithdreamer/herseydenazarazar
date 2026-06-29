@@ -840,9 +840,33 @@
                                          {"title":"Dimension (Ölçülendirme) nedir?"
                                             ,"definition":"Bir çizimdeki kenar, çap veya açı gibi geometrik öğelerin gerçek ölçüsünü belirleyen araçtır.    "
                                          },
-                                            {"title":"Constraint (Kısıtlama) Nedir?"
-                                                ,"definition":"Bir çizimdeki öğelerin birbirine göre konumunu veya boyutunu sınırlayan kurallardır. Örneğin, iki çizgi arasındaki mesafeyi sabitlemek veya bir dairenin çapını belirlemek için kullanılır."
+                                        {"title":"Constraint (Kısıtlama) Nedir?"
+                                                ,"definition":"Bir çizimdeki öğelerin birbirine göre konumunu veya boyutunu sınırlayan kurallardır. Örneğin, iki çizgi arasındaki mesafeyi sabitlemek veya bir dairenin çapını belirlemek için kullanılır.Dimension 'kaç mm?' sorusunun cevabıdır."
+                                            },
+                                            {
+                                                "title":  "Aşırı kısıtlama nedir?",
+                                                "definition":  "Bir çizimde çok fazla kısıtlama uygulandığında, öğelerin hareket etmesini veya düzenlenmesini engelleyen durumdur. Bu, tasarımın esnekliğini azaltabilir ve istenmeyen sonuçlara yol açabilir.Örnek olarak aynı kenara iki farklı gerçek ölçü veremezsin."
+                                            },
+                                            {
+                                                "title":  "Driven Dimension (Yönlendirilen Boyut)",
+                                                "definition":  "Modeli değiştirmeyen, yalnızca mevcut ölçüyü gösteren referans ölçüdür.Constraint 'nasıl davranmalı?' sorusunun cevabıdır."
+                                            },{
+                                                "title":  "Finish Sketch (Çizimi Bitir) Nedir?",
+                                                "definition":  "Sketch üzerinde yapılan çizimi tamamlayarak 3 boyutlu modelleme araçlarına geçiş sağlayan komuttur."
+                                            },
+                                            {   
+                                                "title":  "Profile (Profil)Nedir?",
+                                                "definition":  "Sketch üzerinde oluşturulan kapalı alanları ifade eder. Extrude gibi 3 boyutlu modelleme araçları, bu kapalı alanları kullanarak 3D modeller oluşturur."
+                                            },
+                                            {
+                                                "title":  "Extrude (Dışa Çekme) Nedir?",
+                                                "definition":  "Sketch üzerinde oluşturulan kapalı alanları belirli bir mesafe boyunca uzatarak 3D katı modele dönüştüren işlemdir. Modelin yüksekliğini, kalınlığını veya derinliğini belirler."
+                                            },
+                                            {
+                                                "title":  "Solid Body (Katı Gövde) Nedir?",
+                                                "definition":  "3D modelin tek parça ve kapalı yapısını ifade eder. Solid body, modelin fiziksel özelliklerini ve hacmini temsil eder."
                                             }
+
 
 
                                      ]
