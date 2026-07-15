@@ -41,6 +41,7 @@
             <a data-nav-key="ag-ve-internet" data-href="category.html?id=ag-ve-internet" href="#">Ağ ve İnternet</a>
             <a data-nav-key="isletim-sistemleri" data-href="category.html?id=isletim-sistemleri" href="#">İşletim Sistemleri</a>
             <a data-nav-key="bulut-ve-devops" data-href="category.html?id=bulut-ve-devops" href="#">Bulut ve DevOps</a>
+            <a data-nav-key="domain-yonetimi" data-href="category.html?id=domain-yonetimi" href="#">Domain Yönetimi</a>
             <a data-nav-key="siber-guvenlik" data-href="category.html?id=siber-guvenlik" href="#">Siber Güvenlik</a>
           </div>
         </details>
