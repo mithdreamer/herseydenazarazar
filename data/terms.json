@@ -1049,6 +1049,53 @@
         "definition": "Sunucu yazılımı geliştirmeden veritabanı, kullanıcı yönetimi ve dosya depolama gibi servisleri hazır olarak sunan platformlara verilen isimdir. Supabase bunun en popüler örneklerinden biridir."
       }
       ]
+    },
+    {
+      "id": "domain-yonetimi",
+      "title": "Domain Yönetimi",
+      "description": "Web sitelerinin yayınlanması, alan adı bağlantıları, DNS ayarları ve otomatik deploy süreçlerinde kullanılan temel kavramlar.",
+      "icon": "🌍",
+      "group": "Deployment ve DevOps",
+      "legacyUrl": "pages/domain-yonetimi.html",
+      "terms": [
+        {
+          "title": "GitHub Pages",
+          "definition": "GitHub depolarındaki HTML, CSS ve JavaScript dosyalarını internet üzerinde yayınlamayı sağlayan statik hosting hizmetidir. Made3D projesinde Netlify deploy limiti nedeniyle alternatif yayın ortamı olarak kullanılmıştır."
+        },
+        {
+          "title": "GitHub Actions",
+          "definition": "GitHub deposunda tanımlanan işlemleri otomatik olarak çalıştıran sistemdir. Kod GitHub'a gönderildiğinde test, build ve deploy gibi işlemleri gerçekleştirebilir."
+        },
+        {
+          "title": "Workflow",
+          "definition": "GitHub Actions tarafından çalıştırılan otomasyon adımlarının tanımlandığı YAML dosyasıdır. Hangi olayda çalışacağı ve hangi işlemleri yapacağı workflow içinde belirtilir."
+        },
+        {
+          "title": "Artifact",
+          "definition": "Bir build veya workflow çalışması sonucunda oluşturulan ve başka bir aşamada kullanılmak üzere paketlenen dosya grubudur. Yayın Hattı Modu'nda site dosyaları artifact olarak hazırlanıp GitHub Pages'e gönderilir."
+        },
+        {
+          "title": "Deploy",
+          "definition": "Bir web sitesinin veya uygulamanın kullanıcıların erişebileceği bir sunucuya ya da hosting ortamına yayınlanması işlemidir."
+        },
+        {
+          "title": "Publish Directory",
+          "definition": "Hosting servisinin internet üzerinde yayınlayacağı dosyaların bulunduğu klasördür. Örneğin index.html dosyası public klasöründeyse publish directory olarak public seçilebilir."
+        },
+        {
+          "title": "Static Hosting",
+          "definition": "HTML, CSS, JavaScript ve görsel dosyaları gibi statik içerikleri internet üzerinde yayınlayan hosting türüdür. GitHub Pages ve Netlify statik hosting hizmeti sunabilir."
+        },
+        {
+          "title": "Custom Domain",
+          "definition": "Bir web sitesine hosting servisinin verdiği varsayılan adres yerine kullanıcıya ait özel bir alan adının bağlanmasıdır. Örneğin mithdreamer.github.io/made3d yerine made3d.com kullanılabilir."
+        },
+        {
+          "title": "DNS",
+          "definition": "Alan adlarını internet üzerindeki sunucu adreslerine yönlendiren sistemdir. Özel bir domaini GitHub Pages veya başka bir hosting hizmetine bağlarken DNS kayıtları düzenlenir."
+        }
+      ]
     }
+    
   ]
 }
