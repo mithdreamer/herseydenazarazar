@@ -10,6 +10,7 @@
         <nav class="footer-links" aria-label="Alt bilgi site bölümleri">
           <h3>Site Bölümleri</h3>
           <a data-href="category.html?id=web-gelistirme" href="#">Web Geliştirme</a>
+          <a data-href="category.html?id=web-mimarisi" href="#">Web Mimarisi</a>
           <a data-href="category.html?id=devtools-terimleri" href="#">DevTools Terimleri</a>
           <a data-href="category.html?id=yazilim-araclari" href="#">Yazılım Araçları</a>
           <a data-href="category.html?id=veritabani" href="#">Veritabanı</a>

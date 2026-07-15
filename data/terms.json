@@ -963,6 +963,92 @@
           "definition": "Dosya paylaşımı, belgeleri veya medya dosyalarını bağlantı ya da ortak klasör yoluyla başkalarıyla paylaşma yöntemidir."
         }
       ]
+    },
+    {
+      "id": "web-mimarisi",
+      "title": "Web Mimarisi",
+      "description": "Modern web projelerinde kullanılan temel mimari kavramlar, yayınlama süreçleri, veritabanı ve dosya depolama yapıları.",
+      "icon": "🌐",
+      "group": "Yazılım ve Web",
+      "legacyUrl": "pages/web-mimarisi.html",
+      "terms": [
+      {
+        "title": "Static Website (Statik Web Sitesi)",
+        "definition": "HTML, CSS ve JavaScript dosyalarından oluşan, kullanıcıya hazır içerik sunan web sitesidir. Kod değişmediği sürece yeniden derlenmesine gerek yoktur."
+      },
+      {
+        "title": "Dynamic Website (Dinamik Web Sitesi)",
+        "definition": "İçeriği veritabanından veya API'lerden alan, kullanıcı işlemlerine göre değişen web sitesidir."
+      },
+      {
+        "title": "Frontend",
+        "definition": "Kullanıcının tarayıcıda gördüğü ve etkileşim kurduğu arayüzdür. HTML, CSS ve JavaScript ile geliştirilir."
+      },
+      {
+        "title": "Backend",
+        "definition": "Veritabanı, kullanıcı işlemleri, güvenlik ve iş kurallarını yöneten sunucu tarafındaki yazılımdır."
+      },
+      {
+        "title": "Database (Veritabanı)",
+        "definition": "Ürünler, kullanıcılar, siparişler ve diğer verilerin saklandığı yapıdır. Fotoğraf dosyalarının kendisi yerine genellikle fotoğrafların internet adresleri (URL) tutulur."
+      },
+      {
+        "title": "Storage",
+        "definition": "Fotoğraf, video, PDF ve benzeri büyük dosyaların saklandığı çevrim içi depolama alanıdır. Veritabanından farklı olarak dosyaların kendisi burada tutulur."
+      },
+      {
+        "title": "Image URL",
+        "definition": "Storage üzerinde bulunan bir fotoğrafın internet adresidir. Web sitesi bu adresi kullanarak resmi görüntüler."
+      },
+      {
+        "title": "Supabase",
+        "definition": "PostgreSQL veritabanı, dosya depolama (Storage), kullanıcı doğrulama (Auth) ve API hizmetlerini tek platformda sunan açık kaynaklı Backend as a Service (BaaS) çözümüdür."
+      },
+      {
+        "title": "Supabase Database",
+        "definition": "Supabase'in PostgreSQL tabanlı veritabanıdır. Ürün bilgileri, siparişler ve kullanıcı kayıtları burada tutulur."
+      },
+      {
+        "title": "Supabase Storage",
+        "definition": "Fotoğraf ve diğer dosyaların internet üzerinden erişilebilir şekilde saklandığı bölümdür."
+      },
+      {
+        "title": "Supabase Auth",
+        "definition": "Kullanıcı girişleri, şifre yönetimi ve yetkilendirme işlemlerini sağlayan Supabase servisidir."
+      },
+      {
+        "title": "Admin Panel",
+        "definition": "Site yöneticisinin ürün ekleyebildiği, fotoğraf yükleyebildiği, siparişleri yönetebildiği yönetim ekranıdır."
+      },
+      {
+        "title": "GitHub",
+        "definition": "Proje kaynak kodlarının saklandığı versiyon kontrol platformudur. Kod değişiklikleri commit ve push işlemleriyle buraya gönderilir."
+      },
+      {
+        "title": "Netlify",
+        "definition": "Statik web sitelerini internet üzerinde yayınlayan hosting platformudur. GitHub ile entegre çalışarak yeni kodlar push edildiğinde otomatik deploy gerçekleştirebilir."
+      },
+      {
+        "title": "Deploy",
+        "definition": "Bir web sitesini internet üzerinde yayınlama işlemidir."
+      },
+      {
+        "title": "Publish Directory",
+        "definition": "Netlify'nin internete yayınlayacağı klasördür. Örneğin index.html public klasörü içerisindeyse Publish Directory olarak 'public' seçilir."
+      },
+      {
+        "title": "API",
+        "definition": "İki farklı yazılımın birbiriyle haberleşmesini sağlayan arayüzdür. JavaScript, API aracılığıyla veritabanından ürünleri alabilir."
+      },
+      {
+        "title": "JSON",
+        "definition": "Verilerin saklanması ve taşınması için kullanılan hafif veri formatıdır. Başlangıç projelerinde küçük veri kümeleri genellikle JSON dosyalarında tutulur."
+      },
+      {
+        "title": "BaaS (Backend as a Service)",
+        "definition": "Sunucu yazılımı geliştirmeden veritabanı, kullanıcı yönetimi ve dosya depolama gibi servisleri hazır olarak sunan platformlara verilen isimdir. Supabase bunun en popüler örneklerinden biridir."
+      }
+      ]
     }
   ]
 }
