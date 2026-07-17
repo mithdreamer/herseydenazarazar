@@ -14,6 +14,7 @@
           <a data-href="category.html?id=devtools-terimleri" href="#">DevTools Terimleri</a>
           <a data-href="category.html?id=yazilim-araclari" href="#">Yazılım Araçları</a>
           <a data-href="category.html?id=veritabani" href="#">Veritabanı</a>
+          <a data-href="category.html?id=database-backend" href="#">Veritabanı ve Backend</a>
           <a data-href="category.html?id=yapay-zeka" href="#">Yapay Zeka</a>
           <a data-href="category.html?id=yazilim" href="#">Yazılım</a>
           <a data-href="category.html?id=arduino" href="#">Arduino</a>

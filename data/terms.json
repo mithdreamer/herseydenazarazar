@@ -1095,7 +1095,77 @@
           "definition": "Alan adlarını internet üzerindeki sunucu adreslerine yönlendiren sistemdir. Özel bir domaini GitHub Pages veya başka bir hosting hizmetine bağlarken DNS kayıtları düzenlenir."
         }
       ]
-    }
+    },
+    {
+    "id": "database-backend",
+    "title": "Veritabanı ve Backend",
+    "description": "Veritabanı tasarımı, PostgreSQL, Supabase ve backend mimarisi ile ilgili temel kavramlar.",
+    "icon": "DB",
+    "group": "Yazılım Geliştirme",
+    "legacyUrl": "pages/database-backend.html",
+    "terms": [
+      {
+        "title": "PostgreSQL",
+        "definition": "PostgreSQL, açık kaynak kodlu, güçlü ve ilişkisel (Relational) bir veritabanı yönetim sistemidir. Supabase'in temelinde PostgreSQL bulunur ve tüm veriler bu veritabanında saklanır."
+      },
+      {
+        "title": "Database (Veritabanı)",
+        "definition": "Bir uygulamaya ait tüm verilerin düzenli bir şekilde saklandığı yapıdır. İçerisinde tablolar (Tables), kayıtlar (Rows) ve sütunlar (Columns) bulunur."
+      },
+      {
+        "title": "Table (Tablo)",
+        "definition": "Veritabanı içerisinde aynı tür verilerin saklandığı yapıdır. Örneğin Made3D projesinde products, categories ve orders tabloları bulunacaktır."
+      },
+      {
+        "title": "Column (Sütun)",
+        "definition": "Bir tablodaki her bilgi alanını temsil eder. Örneğin products tablosunda name, price, stock ve category_id alanları birer column'dır."
+      },
+      {
+        "title": "Row (Satır)",
+        "definition": "Bir tablodaki tek bir kaydı temsil eder. Products tablosunda her satır tek bir ürünü ifade eder."
+      },
+      {
+        "title": "Record (Kayıt)",
+        "definition": "Record ve Row aynı anlamda kullanılır. Veritabanındaki tek bir veri satırını ifade eder."
+      },
+      {
+        "title": "Primary Key",
+        "definition": "Bir tablodaki her satırı benzersiz olarak tanımlayan alandır. Aynı tabloda iki farklı kayıt aynı Primary Key değerine sahip olamaz ve boş bırakılamaz."
+      },
+      {
+        "title": "UUID",
+        "definition": "Universally Unique Identifier (UUID), her kayıt için benzersiz olarak oluşturulan uzun kimlik değeridir. Modern uygulamalarda Auto Increment yerine sıklıkla tercih edilir."
+      },
+      {
+        "title": "Auto Increment",
+        "definition": "Her yeni kayıt eklendiğinde sayısal kimliği otomatik olarak artıran yöntemdir. Örneğin 1, 2, 3, 4 şeklinde ilerler."
+      },
+      {
+        "title": "Natural Key",
+        "definition": "Gerçek dünyada zaten var olan ve anlam taşıyan anahtardır. Ürün Kodu, TC Kimlik Numarası veya Vergi Numarası buna örnek olarak verilebilir."
+      },
+      {
+        "title": "Surrogate Key",
+        "definition": "Sistem tarafından oluşturulan ve yalnızca kayıtları benzersiz şekilde tanımlamak amacıyla kullanılan anahtardır. UUID bunun en yaygın örneklerinden biridir."
+      },
+      {
+        "title": "Entity",
+        "definition": "Veritabanında tablo olarak modellenen gerçek dünya nesnesidir. Made3D projesinde Product, Category, Order ve User birer Entity'dir."
+      },
+      {
+        "title": "Schema",
+        "definition": "Veritabanı içerisinde tabloları mantıksal olarak gruplandıran yapıdır. Supabase projelerinde varsayılan olarak public schema kullanılır."
+      },
+      {
+        "title": "Supabase",
+        "definition": "PostgreSQL tabanlı açık kaynak Backend-as-a-Service (BaaS) platformudur. Database, Authentication, Storage, API ve Realtime gibi servisleri tek platformda sunar."
+      },
+      {
+        "title": "Backend as a Service (BaaS)",
+        "definition": "Kimlik doğrulama, veritabanı, dosya depolama ve API gibi backend hizmetlerini hazır olarak sunan platformlara verilen isimdir. Supabase ve Firebase en bilinen BaaS çözümlerindendir."
+      }
+    ]
+  }
     
   ]
 }
